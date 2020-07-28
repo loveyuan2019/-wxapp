@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 如何 创建crawl 爬虫 scrapy genspider –t crawl [爬虫名字] [域名]  -t意思是以哪种模块创建爬虫
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
